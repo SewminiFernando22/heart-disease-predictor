@@ -5,6 +5,7 @@
 
 The Heart Disease Predictor is a machine learning-based application designed to predict the risk of heart disease in individuals based on clinical data. Using the UCI Heart Disease dataset, it employs a Logistic Regression model to classify patients as either "Healthy" (no heart disease) or "Not Healthy" (at risk of heart disease). The project includes a user-friendly web application built with Streamlit, allowing users to input their medical data and receive an instant prediction with a confidence score and personalized health tips.
 
+
 **Who Needs This?**
 *This project is ideal for:*
 
@@ -20,6 +21,8 @@ General Public: Anyone curious about their heart health (though not a substitute
 Purpose*
 
 
+
+
 **The primary goals of this project are:**
 
 Predict Heart Disease Risk: Provide a simple way to assess heart disease risk based on 13 clinical features (e.g., age, cholesterol, blood pressure).
@@ -29,6 +32,9 @@ Educate Users: Raise awareness about heart health through intuitive visualizatio
 Demonstrate ML Workflow: Showcase a complete machine learning pipeline, from data preprocessing to model training and deployment in a web app.
 
 Promote Accessibility: Offer an easy-to-use interface for non-technical users to interact with a machine learning model.
+
+
+
 
 **Technologies Used**
 
@@ -46,6 +52,7 @@ Joblib: For saving and loading the trained model and scaler.
 
 Git: For version control and hosting on GitHub.
 
+
 **Other Details**
 
 Dataset
@@ -56,7 +63,8 @@ Features: Includes age, sex, chest pain type, resting blood pressure, cholestero
 
 Target: Binary classification (0 = Healthy, 1 = Not Healthy, derived from original 0-4 severity scale).
 
-Project Structure
+
+**Project Structure**
 
 heart.csv: The UCI dataset used for training and testing.
 
@@ -70,11 +78,11 @@ scaler.pkl: StandardScaler for feature scaling.
 
 README.md: This file, documenting the project.
 
-Installation
+**Installation**
 
 Clone the Repository:
 
-git clone https://github.com/your-username/heart-disease-predictor.git
+git clone https://github.com/SewminiFernando22/heart-disease-predictor.git
 
 Replace your-username with your actual GitHub username.
 
