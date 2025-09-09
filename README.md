@@ -1,4 +1,4 @@
-**Heart Disease Predictor**
+***Heart Disease Predictor***
 
 
 *What is this Project?*
@@ -9,8 +9,11 @@ The Heart Disease Predictor is a machine learning-based application designed to 
 *This project is ideal for:*
 
 Healthcare Enthusiasts and Students: Individuals learning about machine learning in healthcare or exploring data science applications.
+
 Developers: Those interested in building and deploying interactive ML web apps using Python and Streamlit.
+
 Researchers: People studying heart disease risk factors or working with the UCI dataset.
+
 General Public: Anyone curious about their heart health (though not a substitute for medical advice).*
 
 *Note: This tool is for educational purposes only and should not be used for medical diagnosis. Always consult a healthcare professional for accurate assessments.
@@ -20,18 +23,27 @@ Purpose*
 **The primary goals of this project are:**
 
 Predict Heart Disease Risk: Provide a simple way to assess heart disease risk based on 13 clinical features (e.g., age, cholesterol, blood pressure).
+
 Educate Users: Raise awareness about heart health through intuitive visualizations (e.g., risk probability bar charts) and health tips.
+
 Demonstrate ML Workflow: Showcase a complete machine learning pipeline, from data preprocessing to model training and deployment in a web app.
+
 Promote Accessibility: Offer an easy-to-use interface for non-technical users to interact with a machine learning model.
 
 **Technologies Used**
 
 Python: Core programming language for data processing and modeling.
+
 Pandas: For data manipulation and preprocessing.
+
 Scikit-learn: For training the Logistic Regression model and scaling features.
+
 Streamlit: For building the interactive web application.
+
 Matplotlib and Seaborn: For exploratory data analysis and visualizations.
+
 Joblib: For saving and loading the trained model and scaler.
+
 Git: For version control and hosting on GitHub.
 
 **Other Details**
@@ -39,21 +51,29 @@ Git: For version control and hosting on GitHub.
 Dataset
 
 Source: UCI Heart Disease Dataset (303 samples, 14 features).
+
 Features: Includes age, sex, chest pain type, resting blood pressure, cholesterol, fasting blood sugar, resting ECG, max heart rate, exercise-induced angina, ST depression, ST slope, number of major vessels, and thalassemia.
+
 Target: Binary classification (0 = Healthy, 1 = Not Healthy, derived from original 0-4 severity scale).
 
 Project Structure
 
 heart.csv: The UCI dataset used for training and testing.
+
 train.py: Script for preprocessing data, training the Logistic Regression model, and saving heart_model.pkl and scaler.pkl.
+
 app.py: Streamlit web app for user input and predictions.
+
 heart_model.pkl: Trained Logistic Regression model.
+
 scaler.pkl: StandardScaler for feature scaling.
+
 README.md: This file, documenting the project.
 
 Installation
 
 Clone the Repository:
+
 git clone https://github.com/your-username/heart-disease-predictor.git
 
 Replace your-username with your actual GitHub username.
